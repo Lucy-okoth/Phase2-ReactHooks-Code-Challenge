@@ -17,7 +17,7 @@ function AccountContainer({
 				transactions={transactions}
 			/>
 			<TransactionsList
-				transactions={transactions}
+				transactions= {transactions}
 				handleDeleteTransaction={handleDeleteTransaction}
 			/>
 		</div>
